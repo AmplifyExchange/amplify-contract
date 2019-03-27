@@ -1,0 +1,43 @@
+{
+  "name": "amp-contract",
+  "version": "1.0.0",
+  "description": "Contract for AMPX token",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "lint": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SubstratumNetwork/amp-contract.git"
+  },
+  "keywords": [
+    "amplify",
+    "ampx",
+    "solidity",
+    "truffle"
+  ],
+  "author": "Substratum Services, Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SubstratumNetwork/amp-contract/issues"
+  },
+  "homepage": "https://github.com/SubstratumNetwork/amp-contract#readme",
+  "devDependencies": {
+    "bignumber.js": "^7.2.1",
+    "chai": "^4.2.0",
+    "chai-bignumber": "^2.0.2",
+    "dirty-chai": "^2.0.1",
+    "standard": "^12.0.1",
+    "truffle": "^4.1.14",
+    "truffle-assertions": "^0.6.2",
+    "web3": "^1.0.0-beta.36",
+    "web3-utils": "^1.0.0-beta.36"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "1.12.0"
+  }
+}
